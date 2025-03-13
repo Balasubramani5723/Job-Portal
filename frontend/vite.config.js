@@ -10,4 +10,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
+  preview: {
+    allowedHosts: ["job-portal-16.onrender.com"], 
+  },
 })
